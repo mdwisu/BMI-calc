@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <form id="form">
+        <h1>Check BMI Anda</h1>
+        <label for="berat">Masukan Berat Badan Anda: (KG)</label><br />
+        <input type="number" id="berat" name="berat" placeholder="60" /><br />
+        <label for="tinggi">Masukan Tinggi Badan Anda: (CM)</label><br />
+        <input type="number" id="tinggi" name="tinggi" placeholder="170" /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+      <h2>BMI = <span id="bmi">...</span> kg/m2   (<span id="kriteria">...</span>)</h2>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
